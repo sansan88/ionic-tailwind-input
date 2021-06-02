@@ -14,18 +14,31 @@
   </ion-header>
 
 
-<ion-input value="ion-input without type=text">
+  <ion-list>
+    <ion-item>
+      <ion-label>
+        <p>ion-input with type="text"</p>
+      </ion-label>
+      <ion-input value="foo" type="text">
 
-</ion-input>
+      </ion-input>
+      
+
+    </ion-item>
 
 
-<ion-input type="text" value="ion-input with type=text">
-  
-</ion-input>
+    <ion-item>
+      <ion-label>
+        <p>ion-input without type="text"</p>
+      </ion-label>
+      <ion-input value="bar">
+
+      </ion-input>
+      
+
+    </ion-item>
+
+  </ion-list>
 
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
 </ion-content>
